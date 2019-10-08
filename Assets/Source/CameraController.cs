@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
     float timeToReachPlayer = 2;
     float timePast = 0;
     public bool goToPlayer;
-    public bool timeOut;
+    public static bool timeOut;
     public bool win;
 
     // Start is called before the first frame update

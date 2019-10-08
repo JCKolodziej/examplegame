@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float PlayerSpeed = 1.0f;
     public float PlayerJump = 1.0f;
     public UnityEvent OnPointScored;
+    public UnityEvent timesUp;
 
 
 
@@ -78,6 +79,7 @@ public class Player : MonoBehaviour
             col.GetComponent<Point>().OnPlayerCollision();
         }
     }
+
 
 
 

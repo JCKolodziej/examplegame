@@ -8,6 +8,7 @@ TagManager:
   - Point
   - SpawnPoint
   - Jumpable
+  - endcamera
   layers:
   - Default
   - TransparentFX
