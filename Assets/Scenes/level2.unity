@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 8181451582688162757, guid: cc39ac6e7a3f73c4ea0ae6a2bdc587e5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8181451582688162757, guid: cc39ac6e7a3f73c4ea0ae6a2bdc587e5,
         type: 3}
@@ -450,6 +450,11 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 899045041}
+    - target: {fileID: 3428990133688208528, guid: f33b9239ff41aa741871b92350ff5907,
+        type: 3}
+      propertyPath: goToPlayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33b9239ff41aa741871b92350ff5907, type: 3}
 --- !u!1001 &664905239
