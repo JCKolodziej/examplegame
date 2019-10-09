@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Source;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -46,7 +47,13 @@ public class Player : MonoBehaviour
             // right
             force += Vector3.right;
         }
-     
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            // escape   
+            Pause.StopTime();
+        }
+
+
 
         _rigidbody.AddForce(force*PlayerSpeed*Time.deltaTime*100.0f);
         if (_grounded)
